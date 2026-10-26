@@ -1,0 +1,32 @@
+{
+  "name": "herdledger",
+  "version": "1.0.0",
+  "description": "A Web3 cattle provenance system on Ethereum. A farmer registers an animal under its ear tag, and from then its farm movements, ownership changes, and vet health records live in a tamper evident history that anyone can read.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtully-64/HerdLedger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mtully-64/HerdLedger/issues"
+  },
+  "homepage": "https://github.com/mtully-64/HerdLedger#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^18.0.9",
+    "hardhat": "^2.29.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1"
+  }
+}
